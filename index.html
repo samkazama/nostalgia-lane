@@ -1,0 +1,711 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <title>Nostalgia Lane</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@500;700&family=Lora:ital,wght@0,400;0,500;1,400&display=swap"
+    />
+    <style>
+      /* Layout: a scrapbook sheet with a year-ribbon sidebar; the story flows in one column with taped illustrations floating beside the text. */
+      :root {
+        --paper: #fdf8ea;
+        --desk: #f1e6cf;
+        --ink: #5b4a47;
+        --ink-soft: #7d6a66;
+        --blush: #ebbebb;
+        --butter: #faefae;
+        --sky: #bedbed;
+        --pink: #fedfed;
+        --sand: #cabcab;
+        --rose: #9a5f5a;
+        --serif: "Lora", Georgia, serif;
+        --hand: "Caveat", "Segoe Print", cursive;
+        color-scheme: light;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+      }
+      body {
+        background: var(--desk);
+        color: var(--ink);
+        font-family: var(--serif);
+        line-height: 1.75;
+        margin: 0;
+        overflow-x: hidden;
+        padding-top: max(20px, env(safe-area-inset-top, 0px));
+        padding-bottom: max(40px, env(safe-area-inset-bottom, 0px));
+        padding-left: max(16px, env(safe-area-inset-left, 0px));
+        padding-right: max(16px, env(safe-area-inset-right, 0px));
+      }
+      .sheet {
+        max-width: 1040px;
+        margin: 0 auto;
+        background: var(--paper);
+        border: 1px solid var(--sand);
+        border-radius: 6px;
+        padding: clamp(16px, 3vw, 36px);
+        box-shadow: 0 6px 24px rgba(91, 74, 71, 0.12);
+      }
+      .hand {
+        font-family: var(--hand);
+        font-weight: 500;
+      }
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        gap: 16px;
+        flex-wrap: wrap;
+        border-bottom: 2px dashed var(--sand);
+        padding-bottom: 14px;
+        margin-bottom: 24px;
+      }
+      h1 {
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 500;
+        font-size: clamp(30px, 5vw, 46px);
+        line-height: 1;
+        margin: 0;
+        color: var(--ink);
+      }
+      header .hand {
+        font-size: 22px;
+        color: var(--rose);
+      }
+      .tools {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        flex-wrap: wrap;
+      }
+      .surprise {
+        font-family: var(--hand);
+        font-size: 24px;
+        font-weight: 700;
+        color: var(--ink);
+        background: var(--blush);
+        border: 1px dashed var(--rose);
+        border-radius: 4px;
+        padding: 2px 18px;
+        cursor: pointer;
+        transform: rotate(1.5deg);
+      }
+      .surprise:hover {
+        background: var(--butter);
+      }
+      .surprise:focus-visible {
+        outline: 2px solid var(--rose);
+        outline-offset: 3px;
+      }
+      .note {
+        font-family: var(--hand);
+        font-size: 19px;
+        background: var(--butter);
+        padding: 8px 14px;
+        transform: rotate(-2deg);
+        line-height: 1.1;
+        text-align: center;
+        color: var(--ink);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: 110px minmax(0, 1fr);
+        gap: clamp(16px, 3vw, 32px);
+      }
+      aside {
+        background: var(--pink);
+        border: 1px solid var(--sand);
+        border-radius: 4px;
+        padding: 12px 10px;
+        align-self: start;
+        position: sticky;
+        top: 12px;
+      }
+      aside h2 {
+        font-family: var(--hand);
+        font-size: 24px;
+        margin: 0 0 6px;
+        font-weight: 700;
+        color: var(--rose);
+      }
+      aside ol {
+        list-style: none;
+        margin: 0;
+        padding: 0 0 0 12px;
+        border-left: 2px dotted var(--sand);
+        max-height: 420px;
+        overflow-y: auto;
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+        padding-block: 18px;
+        -webkit-mask-image: linear-gradient(to bottom, transparent, #000 14%, #000 86%, transparent);
+        mask-image: linear-gradient(to bottom, transparent, #000 14%, #000 86%, transparent);
+      }
+      aside ol::-webkit-scrollbar {
+        display: none;
+      }
+      aside li {
+        font-family: var(--hand);
+        font-size: 19px;
+        line-height: 1.5;
+        color: var(--ink-soft);
+        position: relative;
+      }
+      aside li.on {
+        background: var(--blush);
+        color: var(--ink);
+        font-weight: 700;
+        border-radius: 3px;
+        padding: 0 8px;
+        margin-left: -8px;
+        transform: rotate(-2deg);
+      }
+      aside li.has::before {
+        content: "";
+        position: absolute;
+        left: -17px;
+        top: 11px;
+        width: 6px;
+        height: 6px;
+        border-radius: 50%;
+        background: var(--rose);
+      }
+      aside p {
+        font-family: var(--hand);
+        font-size: 17px;
+        line-height: 1.2;
+        color: var(--ink-soft);
+        margin: 10px 0 0;
+      }
+      main {
+        min-width: 0;
+      }
+      .badge {
+        display: inline-block;
+        font-family: var(--hand);
+        font-size: 24px;
+        background: var(--blush);
+        padding: 0 14px;
+        transform: rotate(-2deg);
+        margin-bottom: 6px;
+      }
+      h2.title {
+        font-size: clamp(28px, 4.5vw, 42px);
+        font-weight: 500;
+        line-height: 1.1;
+        margin: 0 0 6px;
+      }
+      .sub {
+        font-style: italic;
+        color: var(--ink-soft);
+        font-size: 18px;
+        margin: 0 0 12px;
+      }
+      .tags {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin: 0 0 22px;
+        padding: 0;
+        list-style: none;
+      }
+      .tags li {
+        font-family: var(--hand);
+        font-size: 19px;
+        padding: 0 12px;
+        border-radius: 3px;
+      }
+      .tags li:nth-child(1) {
+        background: var(--sky);
+      }
+      .tags li:nth-child(2) {
+        background: var(--blush);
+      }
+      .tags li:nth-child(3) {
+        background: var(--butter);
+      }
+      .tags li:nth-child(4) {
+        background: var(--pink);
+        border: 1px solid var(--sand);
+      }
+      .tags li:nth-child(5) {
+        background: var(--sky);
+      }
+      .story p {
+        margin: 0 0 1.1em;
+        font-size: 17.5px;
+        max-width: 62ch;
+      }
+      .lede {
+        font-style: italic;
+        font-size: 20px !important;
+      }
+      .story em.k {
+        font-style: normal;
+      }
+      figure {
+        margin: 6px 0 18px;
+        background: #fffdf6;
+        padding: 10px 10px 8px;
+        border: 1px solid var(--sand);
+        position: relative;
+        width: min(100%, 300px);
+      }
+      figure::before {
+        content: "";
+        position: absolute;
+        top: -10px;
+        left: 50%;
+        width: 70px;
+        height: 20px;
+        margin-left: -35px;
+        background: var(--butter);
+        opacity: 0.9;
+        transform: rotate(-4deg);
+      }
+      figure.r {
+        float: right;
+        margin-left: 24px;
+        transform: rotate(1.5deg);
+      }
+      figure.l {
+        float: left;
+        margin-right: 24px;
+        transform: rotate(-1.5deg);
+      }
+      figure.pk::before {
+        background: var(--blush);
+      }
+      figure.bl::before {
+        background: var(--sky);
+      }
+
+      figcaption {
+        font-family: var(--hand);
+        font-size: 19px;
+        line-height: 1.1;
+        color: var(--rose);
+        text-align: center;
+        margin-top: 6px;
+      }
+      .pull {
+        clear: both;
+        background: var(--butter);
+        border-left: 5px solid var(--blush);
+        padding: 10px 20px;
+        margin: 8px 0 22px;
+        font-style: italic;
+        font-size: 20px;
+        max-width: 62ch;
+      }
+      .pull b {
+        display: block;
+        font-weight: 500;
+      }
+      .pull .big {
+        font-family: var(--hand);
+        font-size: 34px;
+        font-style: normal;
+        color: var(--rose);
+        font-weight: 700;
+        line-height: 1.1;
+      }
+      .lesson {
+        clear: both;
+        display: inline-block;
+        font-family: var(--hand);
+        font-size: 30px;
+        font-weight: 700;
+        background: var(--blush);
+        padding: 8px 20px;
+        transform: rotate(-1.5deg);
+        margin-top: 8px;
+      }
+      .margin {
+        font-family: var(--hand);
+        font-size: 19px;
+        color: var(--rose);
+        line-height: 1.1;
+      }
+      footer {
+        clear: both;
+        margin-top: 26px;
+        padding-top: 12px;
+        border-top: 1px dashed var(--sand);
+        font-family: var(--hand);
+        font-size: 19px;
+        color: var(--ink-soft);
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      @media (max-width: 640px) {
+        body {
+          padding-left: max(10px, env(safe-area-inset-left, 0px));
+          padding-right: max(10px, env(safe-area-inset-right, 0px));
+          padding-top: max(10px, env(safe-area-inset-top, 0px));
+        }
+        .sheet {
+          padding: 18px 14px 22px;
+          overflow-x: clip;
+        }
+        header {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 14px;
+        }
+        header .hand {
+          font-size: 21px;
+          line-height: 1.2;
+        }
+        .tools {
+          display: block;
+        }
+        .surprise {
+          width: 100%;
+          min-height: 48px;
+          font-size: 26px;
+          transform: none;
+        }
+        aside {
+          padding: 10px 6px 4px;
+        }
+        aside h2 {
+          padding-left: 8px;
+        }
+        aside li {
+          min-height: 44px;
+          display: flex;
+          align-items: center;
+          font-size: 22px;
+          padding: 0 12px;
+        }
+        aside li.on {
+          transform: none;
+        }
+        .story p {
+          font-size: 17px;
+          line-height: 1.7;
+          max-width: none;
+        }
+        .lede {
+          font-size: 19px !important;
+        }
+        .pull {
+          padding: 8px 14px;
+          font-size: 18px;
+        }
+        .pull .big {
+          font-size: 30px;
+        }
+        .lesson {
+          font-size: 26px;
+          padding: 8px 16px;
+        }
+        .sub {
+          font-size: 17px;
+        }
+        figure {
+          width: min(100%, 340px);
+        }
+        figure img {
+          max-height: 300px;
+        }
+        footer {
+          justify-content: center;
+          text-align: center;
+        }
+        .grid {
+          grid-template-columns: minmax(0, 1fr);
+        }
+        aside {
+          position: static;
+          min-width: 0;
+        }
+        aside ol {
+          display: flex;
+          gap: 6px;
+          max-height: none;
+          overflow-x: auto;
+          border-left: 0;
+          padding: 0 18px 6px;
+          -webkit-mask-image: linear-gradient(to right, transparent, #000 6%, #000 92%, transparent);
+          mask-image: linear-gradient(to right, transparent, #000 6%, #000 92%, transparent);
+        }
+        aside li {
+          flex: 0 0 auto;
+          padding: 0 8px;
+        }
+        aside li.has::before {
+          display: none;
+        }
+        aside li.on {
+          margin-left: 0;
+        }
+        aside p {
+          display: none;
+        }
+        figure.r,
+        figure.l {
+          float: none;
+          margin: 10px auto 22px;
+        }
+        .note {
+          display: none;
+        }
+      }
+      @media (prefers-reduced-motion: no-preference) {
+        figure {
+          transition: transform 0.25s;
+        }
+        figure:hover {
+          transform: rotate(0) translateY(-3px);
+        }
+      }
+
+      .ph {
+        aspect-ratio: 4/3;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 10px;
+        font-family: var(--hand);
+        font-size: 20px;
+        line-height: 1.1;
+        color: var(--ink-soft);
+        background: repeating-linear-gradient(
+          45deg,
+          var(--pink),
+          var(--pink) 10px,
+          var(--butter) 10px,
+          var(--butter) 20px
+        );
+      }
+      figure img {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-height: 340px;
+        object-fit: cover;
+      }
+      aside li {
+        cursor: pointer;
+      }
+      aside li.has {
+        color: var(--ink);
+      }
+      aside li:focus-visible {
+        outline: 2px solid var(--rose);
+      }
+      .story-wrap {
+        margin-bottom: 48px;
+        padding-bottom: 30px;
+        border-bottom: 2px dashed var(--sand);
+        clear: both;
+      }
+      .story-wrap:last-child {
+        border: 0;
+      }
+      .empty {
+        font-family: var(--hand);
+        font-size: 26px;
+        color: var(--ink-soft);
+        padding: 30px 0;
+      }
+      .sample {
+        font-family: var(--hand);
+        font-size: 18px;
+        color: var(--rose);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="sheet">
+      <header>
+        <div>
+          <h1>Nostalgia Lane</h1>
+          <div class="hand">A little place for the moments that stayed.</div>
+        </div>
+        <div class="tools">
+          <button type="button" class="surprise" id="surprise">
+            Surprise me
+          </button>
+          <div class="note">
+            same kid,<br />just older<br />(and wiser)... maybe
+          </div>
+        </div>
+      </header>
+
+      <div class="grid">
+        <aside aria-label="Timeline">
+          <h2>Timeline</h2>
+          <ol id="years"></ol>
+          <p>Different years, same me.</p>
+        </aside>
+        <main>
+          <div id="stories"></div>
+          <footer><span>Nostalgia Lane</span><span>1996 to now</span></footer>
+        </main>
+      </div>
+    </div>
+    <script src="stories.js"></script>
+    <script>
+      (function () {
+        var ol = document.getElementById("years"),
+          box = document.getElementById("stories");
+        var end = new Date().getFullYear(),
+          has = {};
+        STORIES.forEach(function (s) {
+          has[s.year] = 1;
+          if (s.year > end) end = s.year;
+        });
+        function esc(t) {
+          var d = document.createElement("div");
+          d.textContent = t;
+          return d.innerHTML;
+        }
+        function fig(s, i, side) {
+          var f = document.createElement("figure");
+          f.className = side + (i % 2 ? " bl" : " pk");
+          var src = "images/" + s.images[i];
+          f.innerHTML =
+            '<div class="ph">Your picture here<br>images/' +
+            esc(s.images[i]) +
+            "</div>";
+          var img = new Image();
+          img.alt = (s.captions && s.captions[i]) || s.title;
+          img.onload = function () {
+            f.replaceChild(img, f.firstChild);
+          };
+          img.src = src;
+          if (s.captions && s.captions[i]) {
+            var c = document.createElement("figcaption");
+            c.textContent = s.captions[i];
+            f.appendChild(c);
+          }
+          return f;
+        }
+        function render(s) {
+          var w = document.createElement("article");
+          w.className = "story-wrap";
+          var h =
+            '<span class="badge">' +
+            s.year +
+            ' \u2661</span><h2 class="title">' +
+            esc(s.title) +
+            '</h2><p class="sub">' +
+            esc(s.sub || "") +
+            "</p>";
+          if (s.sample) h += '<p class="sample">sample story</p>';
+          h +=
+            '<ul class="tags">' +
+            (s.tags || [])
+              .map(function (t) {
+                return "<li>" + esc(t) + "</li>";
+              })
+              .join("") +
+            '</ul><div class="story"></div>';
+          w.innerHTML = h;
+          var st = w.querySelector(".story");
+          var paras = s.text.split(/\n\s*\n/),
+            imgs = (s.images || []).length,
+            step = Math.max(1, Math.floor(paras.length / (imgs + 1))),
+            k = 0;
+          paras.forEach(function (p, i) {
+            var el = document.createElement("p");
+            if (p.indexOf("## ") === 0) {
+              el = document.createElement("div");
+              el.className = "lesson";
+              el.textContent = p.slice(3);
+            } else if (p.charAt(0) === ">") {
+              el = document.createElement("div");
+              el.className = "pull";
+              var ls = p.replace(/^>\s*/, "").split("\n");
+              el.innerHTML = ls
+                .map(function (l, j) {
+                  return j === ls.length - 1 && ls.length > 1
+                    ? '<span class="big">' + esc(l) + "</span>"
+                    : "<b>" + esc(l) + "</b>";
+                })
+                .join("");
+            } else {
+              el.textContent = p;
+              if (i === 0) el.className = "lede";
+            }
+            if (k < imgs && i > 0 && i % step === 0) {
+              st.appendChild(fig(s, k, k % 2 ? "l" : "r"));
+              k++;
+            }
+            st.appendChild(el);
+          });
+          while (k < imgs) {
+            st.appendChild(fig(s, k, k % 2 ? "l" : "r"));
+            k++;
+          }
+          return w;
+        }
+        function show(y) {
+          box.innerHTML = "";
+          var list = STORIES.filter(function (s) {
+            return s.year === y;
+          });
+          if (!list.length) {
+            box.innerHTML =
+              '<p class="empty">Nothing written for ' +
+              y +
+              " yet. Add a story to <b>STORIES</b> in this file.</p>";
+          }
+          list.forEach(function (s) {
+            box.appendChild(render(s));
+          });
+          [].forEach.call(ol.children, function (li) {
+            li.classList.toggle("on", +li.textContent === y);
+          });
+          try {
+            location.hash = y;
+          } catch (e) {}
+          var on = ol.querySelector(".on");
+          if (on && on.scrollIntoView)
+            on.scrollIntoView({ block: "nearest", inline: "nearest" });
+        }
+        document.getElementById("surprise").onclick = function () {
+          var years = Object.keys(has).map(Number);
+          var cur = +location.hash.slice(1);
+          var pool = years.filter(function (y) {
+            return y !== cur;
+          });
+          if (!pool.length) pool = years;
+          show(pool[Math.floor(Math.random() * pool.length)]);
+          window.scrollTo(0, 0);
+        };
+        for (var y = 2000; y <= end; y++) {
+          var li = document.createElement("li");
+          li.textContent = y;
+          li.tabIndex = 0;
+          if (has[y]) li.className = "has";
+          (function (yy) {
+            li.onclick = function () {
+              show(yy);
+            };
+            li.onkeydown = function (e) {
+              if (e.key === "Enter") show(yy);
+            };
+          })(y);
+          ol.appendChild(li);
+        }
+        var start = +location.hash.slice(1) || STORIES[0].year;
+        show(start);
+      })();
+    </script>
+  </body>
+</html>
