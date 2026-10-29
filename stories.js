@@ -120,21 +120,5 @@ To this day, I'm not sure whether he was being noble or just protecting himself 
 And that was the day I learned two things: I could throw a real punch, and boys will invent an entire gang of older children before admitting a girl did it.
 
 ## Lesson learned: never offer your face to someone who trains at 5:30 pm.`,
-  },
-  {
-    sample: true,
-    year: 2003,
-    title: "The Borrowed Bicycle",
-    sub: "Summer, 2003 \u2014 Confidence is a kind of balance.",
-    tags: ["childhood", "family"],
-    images: ["bicycle.jpg"],
-    captions: ["Sample picture slot."],
-    text: `(Sample story. Replace or delete me.)
-
-The bike was two sizes too big and belonged to a cousin who was not consulted. I rode it down the lane anyway, certain that confidence alone would keep me upright.
-
-It did, for about eleven seconds.
-
-## Lesson learned: hedges are forgiving.`,
-  },
+  }
 ];
