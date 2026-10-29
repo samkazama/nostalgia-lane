@@ -88,7 +88,7 @@ Everyone involved had good intentions. Grandma wanted me happy. Mom wanted me sa
 
     images: ["trees.webp", "punch.webp", "rojola.webp"],
 
-    imagePositions: [2, 12, 15],
+    imagePositions: [2, 12, 17],
 
     captions: ["Our private little hideout", "He got absolutely REKT by her", "The sign of approval"],
 
