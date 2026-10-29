@@ -1,29 +1,40 @@
 /* ===== YOUR STORIES LIVE HERE =====
    To add a story, copy one block below, change it, and add it to the list.
-   year    the year it happened (puts it on the timeline)
+   year             the year it happened (puts it on the timeline)
    title, sub, tags
-   images  picture file names inside the images/ folder (missing ones show a placeholder)
-   text    the story; blank line = new paragraph.
-           A paragraph starting with ">" becomes a big highlighted quote.
-           A paragraph starting with "##" becomes the sticky-note ending. */
+   images           picture file names inside the images/ folder
+   imagePositions   paragraph numbers AFTER which each image appears
+                    Example: [4, 8] = first image after paragraph 4,
+                    second image after paragraph 8.
+                    Leave an image out of this array to show it at the end.
+   captions         image captions, in the same order as images
+   text             the story; blank line = new paragraph.
+                    A paragraph starting with ">" becomes a big highlighted quote.
+                    A paragraph starting with "##" becomes the sticky-note ending. */
+
 let STORIES = [
   {
     year: 2000,
     title: "The Great Sfouf Incident",
     sub: "Ramadan, 2000 \u2014 A tragedy in red corduroy.",
     tags: ["childhood", "family", "school", "embarrassing moments", "food"],
+
     images: [
-      "sfouf-bowl.webp",
       "classroom.webp",
       "little-gluton.webp",
+      "sfouf-bowl.webp",
       "red-corduroy.webp",
     ],
+
+    imagePositions: [1, 6, 9, 15],
+
     captions: [
-      "sfouf: looks innocent, works against you.",
       "Ghayyath and the Pikachu card.",
       "Two batches, one greedy little girl.",
+       "sfouf: looks innocent, works against you.",
       "Red corduroy. Of all the trousers in the world...",
     ],
+
     text: `Some childhood stories never die, especially when your family has appointed itself their official archivist.
 
 It was the year 2000, and I was in "tamhidi tani", the year before first grade. It was Ramadan, and winter was doing what winter does best: raining relentlessly and turning four o'clock into midnight. The classroom lights were dim, dismissal was close, and I had no idea I was about to become a legend.
@@ -68,13 +79,19 @@ Everyone involved had good intentions. Grandma wanted me happy. Mom wanted me sa
 
 ## Lesson learned: sfouf make poop run.`,
   },
+
   {
     year: 2001,
     title: "One punch girl",
     sub: "2001 \u2014 The day a girl proved she could throw a real punch.",
     tags: ["childhood", "school", "friends", "boxing", "funny"],
-    images: ["punch.webp", "rojola.webp"],
-    captions: ["He got absolutely REKT by her", "The sign of approval"],
+
+    images: ["trees.webp", "punch.webp", "rojola.webp"],
+
+    imagePositions: [2, 12, 15],
+
+    captions: ["Our private little hideout", "He got absolutely REKT by her", "The sign of approval"],
+
     text: `Every great fighter has an origin story. Mine involves a snack shed, two giant fungus-covered trees, and a boy who really should have minded his own business.
 
 It was 2001, and I was in first grade, around the age when you start to believe you are invincible. My best friend at the time was Mansour, and we had a secret. At the far end of the schoolyard stood a little shed where the school security guy sold snacks: chips, candy, the kind of treasure that kept an entire school economy running. Behind that shed grew two enormous old trees. They were massive, with thick, gnarled trunks, and they were completely overgrown with fungus. Big, pale, shelf-like growths climbed up the bark like the trees were wearing ruffled collars. It was damp, shady, a little bit gross, and absolutely perfect.
@@ -120,5 +137,5 @@ To this day, I'm not sure whether he was being noble or just protecting himself 
 And that was the day I learned two things: I could throw a real punch, and boys will invent an entire gang of older children before admitting a girl did it.
 
 ## Lesson learned: never offer your face to someone who trains at 5:30 pm.`,
-  }
+  },
 ];

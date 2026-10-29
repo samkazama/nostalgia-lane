@@ -619,7 +619,7 @@
           var st = w.querySelector(".story");
           var paras = s.text.split(/\n\s*\n/),
             imgs = (s.images || []).length,
-            step = Math.max(1, Math.floor(paras.length / (imgs + 1))),
+            positions = s.imagePositions || [],
             k = 0;
           paras.forEach(function (p, i) {
             var el = document.createElement("p");
@@ -642,12 +642,17 @@
               el.textContent = p;
               if (i === 0) el.className = "lede";
             }
-            if (k < imgs && i > 0 && i % step === 0) {
+
+            st.appendChild(el);
+
+            // imagePositions uses paragraph numbers (starting at 1).
+            // Each value says after which paragraph the next image appears.
+            while (k < imgs && positions[k] === i + 1) {
               st.appendChild(fig(s, k, k % 2 ? "l" : "r"));
               k++;
             }
-            st.appendChild(el);
           });
+          // Keep images visible if a position has not been configured for them yet.
           while (k < imgs) {
             st.appendChild(fig(s, k, k % 2 ? "l" : "r"));
             k++;
