@@ -6,17 +6,17 @@
    text    the story; blank line = new paragraph.
            A paragraph starting with ">" becomes a big highlighted quote.
            A paragraph starting with "##" becomes the sticky-note ending. */
-var STORIES = [
+let STORIES = [
   {
     year: 2000,
     title: "The Great Sfouf Incident",
     sub: "Ramadan, 2000 \u2014 A tragedy in red corduroy.",
     tags: ["childhood", "family", "school", "embarrassing moments", "food"],
     images: [
-      "sfouf-bowl.jpg",
-      "classroom.jpg",
-      "little-gluton.jpg",
-      "red-corduroy.jpg",
+      "sfouf-bowl.webp",
+      "classroom.webp",
+      "little-gluton.webp",
+      "red-corduroy.webp",
     ],
     captions: [
       "sfouf: looks innocent, works against you.",
