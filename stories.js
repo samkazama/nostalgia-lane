@@ -188,6 +188,6 @@ I did not finish my plate. I did not finish the bread. I did not finish my child
 
 To this day, I have not been able to eat funeral bread. Sanaa, if you are reading this: I know you remember.
 
-## Lesson learned: when Sanaa says "trust me," get a second opinion.`,
+## Lesson learned: when Sanaa says "trust me" get a second opinion.`,
   },
 ];
