@@ -69,6 +69,59 @@ Everyone involved had good intentions. Grandma wanted me happy. Mom wanted me sa
 ## Lesson learned: sfouf make poop run.`,
   },
   {
+    year: 2001,
+    title: "One punch girl",
+    sub: "2001 \u2014 The day a girl proved she could throw a real punch.",
+    tags: ["childhood", "school", "friends", "boxing", "funny"],
+    images: ["punch.webp", "rojola.webp"],
+    captions: ["He got absolutely REKT by her", "The sign of approval"],
+    text: `Every great fighter has an origin story. Mine involves a snack shed, two giant fungus-covered trees, and a boy who really should have minded his own business.
+
+It was 2001, and I was in first grade, around the age when you start to believe you are invincible. My best friend at the time was Mansour, and we had a secret. At the far end of the schoolyard stood a little shed where the school security guy sold snacks: chips, candy, the kind of treasure that kept an entire school economy running. Behind that shed grew two enormous old trees. They were massive, with thick, gnarled trunks, and they were completely overgrown with fungus. Big, pale, shelf-like growths climbed up the bark like the trees were wearing ruffled collars. It was damp, shady, a little bit gross, and absolutely perfect.
+
+That was our dojo.
+
+Every day at 5:30 pm, right before our parents came to pick us up, Mansour and I snuck back there to train boxing. In private. Like professionals. We bounced on our toes, held our little fists up by our chins, and threw punches at each other with the seriousness of two people preparing for a world championship. The late afternoon light came through the branches, the whole place smelled of wet bark, and nobody ever bothered us.
+
+Until one afternoon.
+
+A boy named Mohamed el Ouazzani had followed us. He was a chubby boy I wasn't particularly fond of, and he had the confidence of someone who had never been punched.
+
+"You're busted!" he announced, hands on hips. "What are you doing back here? Sharing snacks behind my back? Or something naughty, hm, hm?"
+
+Hm, hm. I still hear it sometimes.
+
+I answered him plainly: we were practicing boxing. A perfectly reasonable answer, I thought. He did not think so. He burst out laughing and turned to Mansour, telling him it was embarrassing to fight a girl, and that girls can't throw real punches anyway.
+
+Now, I could have let it go. I did not let it go. I told him I was actually pretty good at punching.
+
+"Oh, really?" he said. And then he leaned in and offered me his face, tilting his head like a man ordering a sandwich. "Try it."
+
+> He said "try it."
+I tried it.
+I did not hold back.
+
+I planted my feet, twisted my hips, and threw a perfect right straight, exactly like we had rehearsed a hundred times behind those trees. Or at least, that is how it played out in my head. In reality, it was probably a wild little swing with my eyes half closed, but it landed right on his eye with every ounce of strength my tiny arm had. Ouazzani dropped to the ground like a sack of potatoes and started wailing. The fungus trees witnessed everything and said nothing.
+
+The school staff arrived in no time and marched him off to the principal's office. The principal was a mean old hag, and I hated her with my whole heart. I was left sitting on a little bench in the hallway, waiting for my sentence while they questioned him inside.
+
+My hands were sweaty. I was convinced my life was over. And yet, deep down, a small and slightly evil part of me was proud. That was a good punch. He asked for it. Literally.
+
+Several minutes later, the door opened and they all came out, and then something strange happened: they started searching outside the building and all around the yard. Apparently, Ouazzani had told them he was attacked by mean 6th graders from the neighbouring school. And Mansour, my loyal partner in crime, confirmed that he had seen it all.
+
+I looked at Ouazzani. I gave him a thumbs up with the most serious expression I could muster, and I told him:
+
+"Ouazzani, rojola."
+
+Which means, roughly, "Ouazzani, you're a real man."
+
+To this day, I'm not sure whether he was being noble or just protecting himself from the shame of being knocked down by a girl. Probably the second one. But I took the favor, and the legend of the mysterious 6th-grade bullies lives on.
+
+And that was the day I learned two things: I could throw a real punch, and boys will invent an entire gang of older children before admitting a girl did it.
+
+## Lesson learned: never offer your face to someone who trains at 5:30 pm.`,
+  },
+  {
     sample: true,
     year: 2003,
     title: "The Borrowed Bicycle",
