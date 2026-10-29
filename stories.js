@@ -138,4 +138,56 @@ And that was the day I learned two things: I could throw a real punch, and boys 
 
 ## Lesson learned: never offer your face to someone who trains at 5:30 pm.`,
   },
+    {
+    year: 2002,
+    title: "The Funeral Bread Conspiracy",
+    sub: "2002 \u2014 A sesame-topped betrayal.",
+    tags: ["childhood", "family", "siblings", "food", "funny"],
+    images: ["bread.webp"],
+    imagePositions: [2],
+    captions: ["Funeral bread: delicious until someone explains the recipe."],
+    text: `Some people lose their appetite over heartbreak. I lost mine over bread. And I can trace it back to one person: my sister Sanaa.
+
+It was 2002, and I was barely six years old. Whenever someone in our family died, my mother would go to the funeral and come back with a very specific gift: the bread and dates they served there. Now, I did not care which old fart had passed away. I did not ask for names. I did not send condolences. I was only there for the bread.
+
+And what bread it was. Soft, with an inside so white it looked like a cloud, and a crust topped with sesame seeds. I would sit there and eat it like Gluttony from Fullmetal Alchemist, happy, mindless, and sprinkled with sesame seeds.
+
+That is, until Sanaa walked in.
+
+Sanaa was the biggest bully of my childhood, and also a professional liar. Her talents were many, her conscience was optional, and I was her favorite victim.
+
+She stopped, looked at my plate, and asked: "What are you eating?"
+
+"Yummy sesame bread," I answered, mouth full, minding my own business.
+
+She smiled the smile of someone who has just found a new toy. "No," she said. "That's funeral bread."
+
+Then she leaned in. "A dead person's bread. Did you know the dead person is the one who makes it?"
+
+I paused mid-chew. Then I did what any logical six-year-old would do: I defended the bread with science.
+
+"Dead people can't move," I told her, with all the confidence I could gather. "So a corpse can't make bread."
+
+I will admit that I hesitated for a second before saying it. But I was pretty sure. Dead people do not move. That was a well-established fact in my little world.
+
+"You're right," Sanaa said, way too calmly. "Dead people can't move on their own."
+
+Which is when I should have run.
+
+"Relax your muscles," she added. "Trust me, I'll show you."
+
+And me, the idiot, the trusting little idiot, relaxed my muscles.
+
+> She stood behind me.
+She grabbed my arms.
+And she started throwing them in every direction.
+
+Up. Down. Left. Right. I flopped around like a marionette whose puppeteer had gone completely insane, while Sanaa told me, with a big smile on her face: "See? That's how they make them do it."
+
+I did not finish my plate. I did not finish the bread. I did not finish my childhood innocence.
+
+To this day, I have not been able to eat funeral bread. Sanaa, if you are reading this: I know you remember.
+
+## Lesson learned: when Sanaa says "trust me," get a second opinion.`,
+  },
 ];
