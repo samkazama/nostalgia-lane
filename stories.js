@@ -184,7 +184,7 @@ And she started throwing them in every direction.
 
 Up. Down. Left. Right. I flopped around like a marionette whose puppeteer had gone completely insane, while Sanaa told me, with a big smile on her face: "See? That's how they make them do it."
 
-I did not finish my plate. I did not finish the bread. I did not finish my childhood innocence.
+I put the bread down. I did not pick it up again. Sanaa walked away satisfied, and I stayed there with a lot of new questions.
 
 To this day, I have not been able to eat funeral bread. Sanaa, if you are reading this: I know you remember.
 
@@ -192,7 +192,7 @@ To this day, I have not been able to eat funeral bread. Sanaa, if you are readin
   },
         {
     year: 2006,
-    title: "Sweet Revenge in the Library Closet",
+    title: "Smells Like Karma",
     sub: "2006 \u2014 One fart, one father, and instant karma.",
     tags: ["childhood", "family", "siblings", "embarrassing moments", "revenge"],
     images: ["criminal.webp"],
