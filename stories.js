@@ -31,7 +31,7 @@ let STORIES = [
     captions: [
       "Ghayyath and the Pikachu card.",
       "Two batches, one greedy little girl.",
-       "sfouf: looks innocent, works against you.",
+      "sfouf: looks innocent, works against you.",
       "Red corduroy. Of all the trousers in the world...",
     ],
 
@@ -90,7 +90,11 @@ Everyone involved had good intentions. Grandma wanted me happy. Mom wanted me sa
 
     imagePositions: [2, 12, 17],
 
-    captions: ["Our private little hideout", "He got absolutely REKT by her", "The sign of approval"],
+    captions: [
+      "Our private little hideout",
+      "He got absolutely REKT by her",
+      "The sign of approval",
+    ],
 
     text: `Every great fighter has an origin story. Mine involves a snack shed, two giant fungus-covered trees, and a boy who really should have minded his own business.
 
@@ -138,7 +142,7 @@ And that was the day I learned two things: I could throw a real punch, and boys 
 
 ## Lesson learned: never dare a girl who has a training schedule.`,
   },
-    {
+  {
     year: 2002,
     title: "The Funeral Bread Conspiracy",
     sub: "2002 \u2014 A sesame-topped betrayal.",
@@ -190,11 +194,73 @@ To this day, I have not been able to eat funeral bread. Sanaa, if you are readin
 
 ## Lesson learned: when Sanaa says "trust me" get a second opinion.`,
   },
-        {
+  {
+    year: 2003,
+    title: "The Champions League of the Salla",
+    sub: "2003 \u2014 A football match, a Chinese vase, and a surgery that failed.",
+    tags: ["childhood", "family", "siblings", "football", "mischief"],
+    images: ["goalie.webp", "vase.webp", "surgery.webp"],
+    imagePositions: [6, 10, 14],
+    captions: [
+      "Casillas' successor, ready. Self-appointed.",
+      "Made in China, broken in the salla.",
+      "Naoual operating. Success rate: unknown. License: none.",
+    ],
+    text: `Every house has one room where nothing is supposed to happen. Ours was the guest salla, the traditional Arab salon reserved for visitors.
+
+Naturally, it was where everything happened.
+
+It was 2003, and my sisters and I had a plan. It had two steps, and we followed it like a military operation.
+
+Step one began the moment Mom left the house to visit a relative. The second the front door closed, we launched the search unit. Mom kept a ball in the house, but she hid it on purpose, precisely so we wouldn't play indoors. Her hiding spots were good. Sanaa was better. She could find anything in that house: traditional sweets, chocolate, snacks from Europe, everything Mom thought she had hidden well. This time she sniffed the ball out of a closet like a bloodhound, and we were in business.
+
+As stadiums go, the salla was perfect. A long open space with a huge greenish-blue rug in the middle, which was close enough to grass for our imagination. Half walls separated it from the living room, like the stands of a stadium. Mom's decorations were displayed along the top of them, and so was the phone, like a row of very fragile spectators. Nobody was allowed to touch any of them, which made the stands the most dangerous part of the pitch.
+
+Step two was the teams. Two teams of two, and one person on each team had to be the goalie while the other played with her feet. I was the goalie. I was always the goalie, and I took it very seriously. My dream job at the time was to become a keeper like Casillas, or like Walid from Captain Majid, who I had a huge crush on. I even had the equipment: a pair of beige, overused gloves with a plastic, leather-like finish that I wore to every match, even in summer, even when I was sweating like I'd run a marathon. A professional does not take off her gloves.
+
+That day, Naoual was on my team, against Sanaa and Hanae.
+
+I played sitting down on the rug, gloves on, eyes locked on the ball. In my head, this was not a living room. This was a Champions League night, with floodlights, a roaring crowd, and a commentator losing his voice. The match was intense, the score was close, and I made some massive saves, the kind you see on highlights reels. The excitement was at its peak.
+
+Then somebody fired a shot.
+
+I don't remember if it was Naoual or Sanaa. What I remember is the ball flying across the salla, toward Hanae's side, and clipping Mom's Chinese vase, the one she held very dear. It tipped off the edge of the half wall and broke into pieces on the floor.
+
+Silence. The commentator had left the building.
+
+We stood there, frozen, staring at the pieces. Nobody knew what to do. Then Naoual, being the oldest, took charge. She sent us to find Dad's UHU glue while she and Sanaa gathered every shard from the floor.
+
+Then came the surgery.
+
+Naoual laid everything out on the kitchen table and announced that she needed total silence and an empty kitchen. We were ordered out. She rolled up her sleeves like a neurosurgeon about to operate on a very delicate brain, picking up each tiny shard with two fingers, studying it, turning it, and placing it with great seriousness.
+
+The rest of us paced back and forth outside the kitchen door like relatives in a hospital hallway, whispering and waiting for the doctor. After what felt like an eternity, Naoual came out with the results.
+
+> It looked intact.
+We decided it looked intact.
+The vase did not agree.
+
+To be fair, from a distance, in dim light, if you squinted, it was a vase. But there were clear gaps here and there, and it looked like a sad, lopsided version of itself that had been through something terrible. We convinced ourselves that Mom wouldn't notice. We put it back in its spot, returned the ball to the closet where Sanaa had found it, and sat down in the salla in front of the TV like four angels.
+
+And for a while, it worked. Mom came home, and we sat in the TV room pretending everything was normal. Almost an hour went by. Then, from the direction of the salla, a scream came from the bottom of her lungs:
+
+"NAAOUAAL!"
+
+Nobody wondered what happened. Nobody turned from the TV. We all knew: Naoual was screwed.
+
+## Lesson learned: surgeons need a license, and a vase needs more than UHU.`,
+  },
+  {
     year: 2006,
     title: "Smells Like Karma",
     sub: "2006 \u2014 One fart, one father, and instant karma.",
-    tags: ["childhood", "family", "siblings", "embarrassing moments", "revenge"],
+    tags: [
+      "childhood",
+      "family",
+      "siblings",
+      "embarrassing moments",
+      "revenge",
+    ],
     images: ["criminal.webp"],
     imagePositions: [5],
     captions: ["Last known photo of Naoual's dignity."],
