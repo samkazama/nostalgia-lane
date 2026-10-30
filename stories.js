@@ -190,4 +190,52 @@ To this day, I have not been able to eat funeral bread. Sanaa, if you are readin
 
 ## Lesson learned: when Sanaa says "trust me" get a second opinion.`,
   },
+        {
+    year: 2006,
+    title: "Sweet Revenge in the Library Closet",
+    sub: "2006 \u2014 One fart, one father, and instant karma.",
+    tags: ["childhood", "family", "siblings", "embarrassing moments", "revenge"],
+    images: ["criminal.webp"],
+    imagePositions: [4],
+    captions: ["Last known photo of Naoual's dignity."],
+    text: `Revenge is a dish best served cold. Mine was served squatting, next to a closet full of dusty books.
+
+It was 2006, and my house had a chemical weapons program. Its director was my sister Naoual.
+
+Naoual was another giant bully in my life, though she mostly took Sanaa as her main victim and used the rest of us as a bonus. Her weapon of choice was her farts, and her favorite battlefield was movie night. Picture it: all four sisters packed under one big blanket, watching anime on the Spanish TV channels, warm, cozy, and completely defenseless. Then came the silence. Then the rustling. Then the blanket flew up, and Naoual's voice rang out: "Smell it! SMELL MY STENCH!" followed by a laugh so evil that any cartoon villain would have asked her for lessons.
+
+There was no escape. Within seconds the whole room had turned into a gas chamber, and we had to scramble out and rush to open every window and door.
+
+Now, on the day of her downfall, I was sitting on my bed, studying like a saint and minding my own business. Naoual was squatting in front of the closet that served as Dad's library, a tower of books thirty years old or more, so dusty they could have been declared a protected archaeological site. She had hidden some of her own books in there and was digging for them.
+
+What she did not know was that Dad had quietly appeared behind her.
+
+He stood there, looking down at his daughter rummaging through the books, and his face glowed with pure pride. You have to understand something about my father: he loves bookworms. Reading is the only hobby he respects. Don't mention sports to him. Don't mention art. Don't mention anything. In his eyes, a child with a book is a child who will cure diseases, and at that moment he thought he was witnessing the birth of a scholar.
+
+Then Naoual, still crouching, still clueless, let out a gigantic fart.
+
+It was a masterpiece. It echoed. The books trembled. She turned to me with the proud smile of an artist and announced:
+
+"Aaaallah 3la 7oz9a!"
+
+Which means, roughly, "Sweet lord, what a fart!"
+
+You must understand the rules of our house. Farting around Dad was strictly forbidden. We were all girls, and the farting zone was limited to Mom and sisters only. It was an unwritten law, and Naoual had just broken it in front of the one man who must never be exposed to it.
+
+I didn't flinch. I just looked at her with the calm of a monk, smiled a very small smile, and slowly moved my eyes to the spot just above her head.
+
+> She followed my gaze.
+She looked up, still squatting.
+And she met my father's eyes.
+
+Naoual let out a laugh. Not a normal laugh, but the kind a person laughs when their soul is trying to leave through the nearest window. Her face went red, then redder, until it was the exact color of a tomato.
+
+And just to make sure the performance was complete, the shock knocked her off balance and she landed flat on her ass, right between the dusty books and our silent father, whose smile only grew bigger.
+
+I didn't say a single word. I didn't need to. Her embarrassment was punishment enough.
+
+Ahhh, sweet revenge.
+
+## Lesson learned: always do a radar sweep before you fart.`,
+  },
 ];
