@@ -236,6 +236,6 @@ I didn't say a single word. I didn't need to. Her embarrassment was punishment e
 
 Ahhh, sweet revenge.
 
-## Lesson learned: always do a radar sweep before you fart.`,
+## Lesson learned: always check your six before you let it rip.`,
   },
 ];
