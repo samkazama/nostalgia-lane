@@ -126,17 +126,17 @@ My hands were sweaty. I was convinced my life was over. And yet, deep down, a sm
 
 Several minutes later, the door opened and they all came out, and then something strange happened: they started searching outside the building and all around the yard. Apparently, Ouazzani had told them he was attacked by mean 6th graders from the neighbouring school. And Mansour, my loyal partner in crime, confirmed that he had seen it all.
 
-I looked at Ouazzani. I gave him a thumbs up with the most serious expression I could muster, and I told him:
+I looked at Ouazzani. His eye was already swelling into a bluish purple, straight out of a cartoon. I had never seen one in real life, and I was oddly impressed with my work. I gave him a thumbs up with the most serious expression I could muster, and I told him:
 
 "Ouazzani, rojola."
 
 Which means, roughly, "Ouazzani, you're a real man."
 
-To this day, I'm not sure whether he was being noble or just protecting himself from the shame of being knocked down by a girl. Probably the second one. But I took the favor, and the legend of the mysterious 6th-grade bullies lives on.
+To this day, I'm not sure whether he was being noble or just protecting himself from the shame of being knocked down by a girl. Probably the second one. But I took the favor, and the legend of the mysterious 6th-grade bullies lives on, along with the memory of that very, very purple eye.
 
 And that was the day I learned two things: I could throw a real punch, and boys will invent an entire gang of older children before admitting a girl did it.
 
-## Lesson learned: never offer your face to someone who trains at 5:30 pm.`,
+## Lesson learned: never dare a girl who has a training schedule.`,
   },
     {
     year: 2002,
