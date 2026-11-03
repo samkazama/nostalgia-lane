@@ -240,9 +240,9 @@ The rest of us paced back and forth outside the kitchen door like relatives in a
 We decided it looked intact.
 The vase did not agree.
 
-To be fair, from a distance, in dim light, if you squinted, it was a vase. But there were clear gaps here and there, and it looked like a sad, lopsided version of itself that had been through something terrible. We convinced ourselves that Mom wouldn't notice. We put it back in its spot, returned the ball to the closet where Sanaa had found it, and sat down in the salla in front of the TV like four angels.
+To be fair, from a distance, in dim light, and if you squinted, it could pass for a vase. But there were obvious gaps here and there, and it looked like a sad, lopsided version of its former self, as if it had been through something terrible. We convinced ourselves Mom wouldn't notice. We put it back in its spot, returned the ball to the closet where Sanaa had found it, and settled in the TV room, watching TV like four angels.
 
-And for a while, it worked. Mom came home, and we sat in the TV room pretending everything was normal. Almost an hour went by. Then, from the direction of the salla, a scream came from the bottom of her lungs:
+And for a while, it worked. Mom came home, and we kept watching, pretending everything was normal. Almost an hour went by before a scream erupted from the direction of the salla, straight from the bottom of her lungs:
 
 "NAAOUAAL!"
 
