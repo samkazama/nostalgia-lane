@@ -310,7 +310,7 @@ Ahhh, sweet revenge.
     sub: "Summer, 2006 \u2014 The first time I fainted.",
     tags: ["childhood", "family", "siblings", "health", "funny"],
     images: ["bath.webp", "cry.webp"],
-    imagePositions: [5, 28],
+    imagePositions: [6, 29],
     captions: ["Bath time with Naoual: less pampering, more power washing.", "She was supposed to bring me water, not mourn me."],
     text: `There are certain childhood memories that stay with you because they were particularly happy, particularly embarrassing, or particularly traumatic. And then there are the ones that begin with an ordinary bath and somehow end with your sister preparing you for the afterlife.
 
