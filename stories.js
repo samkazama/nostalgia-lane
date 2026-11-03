@@ -251,7 +251,7 @@ Nobody wondered what happened. Nobody turned from the TV. We all knew: Naoual wa
 ## Lesson learned: surgeons need a license, and a vase needs more than UHU.`,
   },
   {
-    year: 2006,
+    year: 2005,
     title: "Smells Like Karma",
     sub: "2006 \u2014 One fart, one father, and instant karma.",
     tags: [
@@ -266,7 +266,7 @@ Nobody wondered what happened. Nobody turned from the TV. We all knew: Naoual wa
     captions: ["Last known photo of Naoual's dignity."],
     text: `Revenge is a dish best served cold. Mine was served squatting, next to a closet full of dusty books.
 
-It was 2006, and my house had a chemical weapons program. Its director was my sister Naoual.
+It was 2005, and my house had a chemical weapons program. Its director was my sister Naoual.
 
 Naoual was another giant bully in my life, though she mostly took Sanaa as her main victim and used the rest of us as a bonus. Her weapon of choice was her farts, and her favorite battlefield was movie night. Picture it: all four sisters packed under one big blanket, watching anime on the Spanish TV channels, warm, cozy, and completely defenseless. Then came the silence. Then the rustling. Then the blanket flew up, and Naoual's voice rang out: "Smell it! SMELL MY STENCH!" followed by a laugh so evil that any cartoon villain would have asked her for lessons.
 
@@ -303,5 +303,82 @@ I didn't say a single word. I didn't need to. Her embarrassment was punishment e
 Ahhh, sweet revenge.
 
 ## Lesson learned: always check your six before you let it rip.`,
+  },
+      {
+    year: 2006,
+    title: "I See a Light",
+    sub: "Summer, 2006 \u2014 The first time I fainted.",
+    tags: ["childhood", "family", "siblings", "health", "funny"],
+    images: ["bath.webp", "cry.webp"],
+    imagePositions: [5, 28],
+    captions: ["Bath time with Naoual: less pampering, more power washing.", "She was supposed to bring me water, not mourn me."],
+    text: `There are certain childhood memories that stay with you because they were particularly happy, particularly embarrassing, or particularly traumatic. And then there are the ones that begin with an ordinary bath and somehow end with your sister preparing you for the afterlife.
+
+This is one of those.
+
+It was the summer of 2006, I think. My parents were away in Tetouan on one of their usual trips, but the weekly bath still had to happen. Unfortunately, my hair was too long for me to wash by myself, which meant Naoual was put in charge.
+
+I dreaded bath time with Naoual.
+
+She was strict about cleanliness and made absolutely sure to wash everything thoroughly. A commendable quality in most circumstances, perhaps, but less appealing when you are the one having your scalp pressure-washed. Amal, who had recently married and moved out, used to handle things very differently. She was gentle. She would pour water over my hair using a bowl, then carefully wipe my face with a towel between pours to make sure the shampoo didn't get into my eyes.
+
+Naoual had a different philosophy: close your eyes and stop complaining. If I complained too much, she'd scream at me, and the shower head would remain pointed directly at my skull at full power.
+
+To be fair, Naoual had softened considerably by then. She used to be a huge bully, but after our grandmother passed away not long before, something in her changed. She became kinder, more careful with us, and a little afraid of hurting us. I will admit that I occasionally took advantage of this newfound weakness. I was a manipulator by nature, haha. But that's a story for another day.
+
+Anyway, on this particular afternoon, we were having a perfectly pleasant conversation about Digimon and which season was my favorite. Somehow, the discussion took an unexpected academic turn, and we ended up talking about i3rab, Arabic grammar. I started explaining how it worked, giving her sentence after sentence as examples. I was apparently very invested in the subject. Naoual listened patiently while continuing to wash my hair.
+
+Then, shortly after she rinsed it with the shower head, something started feeling wrong.
+
+I became a little dizzy, almost feverish. I ignored it. My breathing started feeling slightly difficult. I ignored that too. I was busy having an intellectual conversation, after all.
+
+We eventually finished, and Naoual lifted me out of the bathtub. I was just about to get dressed when I noticed a strange tshhh sound in my ears. Naoual was saying something, but I couldn't make out what anymore.
+
+Then my vision began to disappear.
+
+It was like watching a television channel with a terrible signal. Strange visual artifacts appeared, and a dark, grainy noise began creeping in, slowly covering everything I was looking at. I rubbed my eyes, expecting things to clear up.
+
+Nothing.
+
+Just complete darkness.
+
+> "Naoual, I can't see anymore," I told her.
+And then I passed out in her arms.
+
+The next thing I remember was light. A bright, almost painful light.
+
+I opened my eyes and found myself lying on the couch in the TV room, facing the window. I turned my head to the left and saw Sanaa sitting beside me, holding my hand. On my right was Naoual, looking absolutely terrified.
+
+Apparently, she had carried me all the way from the bathroom to the couch after I fainted.
+
+"I see a light," I said.
+
+Now, in my mind, there had been no time between telling Naoual I couldn't see and announcing that I could. I had simply gone from darkness to light. I thought I was just reporting a development.
+
+Sanaa, however, took this very differently. She looked at me with the utmost seriousness and said:
+
+"A light? Do shahada, Ouissam."
+
+For anyone unfamiliar, the shahada is the Islamic declaration of faith, which Muslims are encouraged to recite as they approach death.
+
+So, apparently, my sister had already started making arrangements for my departure.
+
+"Oh, come on!" I protested. "What shahada? I'm not dying!"
+
+I was already starting to feel better, and I even managed to make a joke about it. Everyone calmed down, the tension left the room, and as far as I was concerned, the crisis was over.
+
+Then someone wondered: where was Hanae?
+
+She had been sent to fetch me a glass of water a while ago and had never come back. Sanaa got up to look for her, and found her in a corner of the house, holding the glass of water in her hands, crying.
+
+She genuinely thought I was dead.
+
+It turned out to be my first time fainting from low blood pressure. A rather dramatic introduction to the phenomenon, if you ask me.
+
+Looking back, I still find the whole sequence absurd. One minute, I was sitting in a bathtub discussing Digimon and explaining Arabic grammar; the next, I was unconscious, being carried to the TV room, and apparently close enough to death that Sanaa thought I should recite my final prayers.
+
+And poor Hanae was somewhere in the house, mourning me with a glass of water in her hands.
+
+## Lesson learned: never ignore the warning signs, even when you're in the middle of explaining Arabic grammar.`,
   },
 ];
